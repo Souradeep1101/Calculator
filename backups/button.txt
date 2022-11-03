@@ -1,0 +1,10 @@
+ElevatedButton(
+          style: ButtonStyle(
+            backgroundColor: MaterialStateProperty.all(Colors.white70),
+          ),
+          onPressed: () {},
+          child: Icon(
+            widget.icon,
+            size: 24,
+            color: Colors.black,
+          )),
