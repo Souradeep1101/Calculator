@@ -31,6 +31,14 @@ class CustomIcons with ChangeNotifier {
         ans = '';
       }
     }
+    if(calc.length >11) {
+      calc = calc.substring(0, 11);
+      try {
+        ans = eval(calc).toString();
+      } catch (e) {
+        ans = '';
+      }
+    }
     notifyListeners();
   }
 
