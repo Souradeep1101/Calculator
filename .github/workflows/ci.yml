@@ -34,4 +34,4 @@ jobs:
         with:
           artifacts: "build/app/outputs/apk/release/*,build/ios/iphoneos/app.ipa"
           tag: v1.0.0
-          token: ${{ secrets.CALCULATOR }}
+          token: ${{ secrets.TOKEN_CALCULATOR }}
